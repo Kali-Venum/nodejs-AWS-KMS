@@ -23,7 +23,7 @@ const encryption = async (data) => {
   return result;
 };
 
-// While using the decryption method it needs the encrypted data inside in Buffer format as a base64 string. ==> Buffer.from(encrypted data, 'base64');
+// While using the decryption method it needs the encrypted data inside in Buffer format as a base64 string. ==> Buffer.from(enter your encrypted data, 'base64')
 const decryption = async (encryptedData) => {
   const params = {
     CiphertextBlob: encryptedData,
